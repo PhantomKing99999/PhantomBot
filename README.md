@@ -1,4 +1,4 @@
-# Python Discord Bot Template
+# PhantomBot
 
 This repository is a template that everyone can use for the start of their discord bot.
 
