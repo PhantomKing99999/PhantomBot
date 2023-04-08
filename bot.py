@@ -16,6 +16,8 @@ import sys
 
 import aiosqlite
 import discord
+
+from discord import app_commands
 from discord.ext import commands, tasks
 from discord.ext.commands import Bot, Context
 
@@ -68,7 +70,7 @@ It is recommended to use slash commands and therefore not use prefix commands.
 
 If you want to use prefix commands, make sure to also enable the intent below in the Discord developer portal.
 """
-# intents.message_content = True
+intents.message_content = True
 
 bot = Bot(
     command_prefix=commands.when_mentioned_or(config["prefix"]),

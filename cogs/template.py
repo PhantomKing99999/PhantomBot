@@ -13,7 +13,7 @@ from helpers import checks
 
 
 # Here we name the cog and create a new class for the cog.
-class Template(commands.Cog, name="template"):
+class Questions(commands.Cog, name="template"):
     def __init__(self, bot):
         self.bot = bot
 
